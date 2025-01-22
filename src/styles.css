@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(59, 117, 119);
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
+}
+
+main {
+    background-color: rgb(250, 244, 236);
+    max-width: 30%;
+    padding: 3em;
+    margin: 5em;
+}
+
+img {
+    margin-bottom: 1.3em;
+}

@@ -1,10 +1,10 @@
 # moment11
 
 ##Automiseringsuppgifter:
-1. minifiera CSS
-2. Transpilera och minifiera JS
-3. minifiera HTML
-4. Optimera bilder
+1. minifiera CSS v
+2. Transpilera och minifiera JS 
+3. minifiera HTML v
+4. Optimera bilder v
 5. Bakåtkompabilitet i genererade filer, ex. att JS transpileras så det fungerar i så många webbläsare som möjligt
 6. Kopering av arbetsfiler till mapp för publicering med optimerade filer
 

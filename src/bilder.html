@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bilder</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="app.js"></script>
+</head>
+<body>
+    
+    <main>
+        <h1>Bilder</h1>
+        <p>Bilder på mina två kattungar som blir 5 månader i slutet av januari</p> 
+        <p>Här, första gången jag och min sambo fick träffa dem, är de 8 veckor gamla</p>
+        <picture>
+            <source srcset="images/vasco-liten.jpg?as=webp&width=250" type="image/webp">
+            <img src="images/vasco-liten.jpg?width=250" alt="Vasco, 8 veckor gammal">
+        </picture>
+
+        <picture>
+            <source srcset="images/odette-liten.jpg?as=webp&width=250" type="image/webp">
+            <img src="images/odette-liten.jpg?width=250" alt="Odette, 8 veckor gammal">
+        </picture>
+
+        <p>Det här är de nyaste bilderna vi har på dem, när de ligger och sover i katträdet</p>
+        <picture>
+            <source srcset="images/vasco.png?as=webp&width=250" type="image/webp" >
+            <img src="images/vasco.png?width=250" alt="Vasco sover" >
+        </picture>
+
+        <picture>
+            <source srcset="images/odette.png?as=webp&width=250" type="image/webp">
+            <img src="images/odette.png?width=250" alt="Odette sover">
+        </picture>
+
+        <p>En lite äldre bild när de nyligen vaknat upp i min sambos datorstol (som de har erövrat totalt)</p>
+        <picture>
+            <source srcset="images/odette-vasco.jpg?as=webp&width=250" type="image/webp">
+            <img src="images/odette-vasco.jpg?width=250" alt="Odette och Vasco">
+        </picture>
+    </main>
+</body>
+</html>

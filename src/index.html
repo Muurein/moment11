@@ -4,18 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Moment 1</title>
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="app.js"></script>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script type="module" src="js/app.js" defer></script>
 </head>
 <body>
 
     <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Startsida</a></li>
-                <li><a href="bilder.html">Bilder</a></li>
-                <li><a href="arbetsprocess.html">Arbetsprocess</a></li>
+        <nav class="dropdown-menu">
+
+            <a href="index.html" class="logo">MOMENT 1</a>
+
+            <ul class="menu-content">
+                <li class="menu-item"><a class="menu-link" href="index.html">Startsida</a></li>
+                <li class="menu-item"><a class="menu-link" href="bilder.html">Bilder</a></li>
+                <li class="menu-item"><a class="menu-link" href="arbetsprocess.html">Arbetsprocess</a></li>
             </ul>
+
+            <div class="hamburger-menu">
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+            </div>
+
         </nav>
     </header>
 

@@ -105,11 +105,11 @@ a {
 /*main content*/
 main {
     background-color: rgb(250, 244, 236);
-    width: 80%;
+    width: 400px;
     padding: 3em;
     margin: 2em;
-    margin-right: 10%;
-    margin-left: 10%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 main p {
@@ -124,7 +124,6 @@ main br {
 /* images */
 picture img {
     margin-bottom: 1.5em;
-    align-items: center;
 }
 
 /* arbetsprocess */
@@ -138,7 +137,7 @@ ol li {
 
     /* main content */
     main {
-        max-width: 60%;
+        width: 600px;
         margin: auto auto;
         margin-top: 2.7em;
     }
@@ -161,13 +160,14 @@ ol li {
     
     /* main content */
     main {
-        max-width: 40%;
+        width: 800px;
         margin: auto auto;
         margin-top: 2.7em;
     }
 
     /* images */
     picture img {
+
         margin: 1.4em;
         margin-top: -0.5em;
     }

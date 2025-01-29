@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bilder</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script type="module" src="js/app.js"></script>
+</head>
+<body>
+    
+    <header>
+        <nav class="dropdown-menu">
+
+            <a href="index.html" class="logo">MOMENT 1</a>
+
+            <ul class="menu-content">
+                <li class="menu-item"><a class="menu-link" href="index.html">Startsida</a></li>
+                <li class="menu-item"><a class="menu-link" href="bilder.html">Bilder</a></li>
+                <li class="menu-item"><a class="menu-link" href="arbetsprocess.html">Arbetsprocess</a></li>
+            </ul>
+
+            <div class="hamburger-menu">
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+            </div>
+
+        </nav>
+    </header>
+
+    <main class="main-img">
+        <h1>Bilder</h1>
+        <p>Bilder på mina två kattungar som blir 5 månader i slutet av januari</p> 
+        <p>Här, första gången jag och min sambo fick träffa dem, är de 8 veckor gamla:</p>
+
+        <!--img 1-->
+        <picture>
+            <source srcset="images/vasco-liten.jpg?as=webp&width=250" type="image/webp">
+            <img src="images/vasco-liten.jpg?width=250" alt="Vasco, 8 veckor gammal">
+        </picture>
+
+        <!--img 2-->
+        <picture>
+            <source srcset="images/odette-liten.jpg?as=webp&width=250" type="image/webp">
+            <img src="images/odette-liten.jpg?width=250" alt="Odette, 8 veckor gammal">
+        </picture>
+        <br>
+
+        <!--img 3-->
+        <p>Det här är de nyaste bilderna vi har på dem, när de ligger och sover i katträdet:</p>
+        <picture>
+            <source srcset="images/vasco.png?as=webp&width=250" type="image/webp" >
+            <img src="images/vasco.png?width=250" alt="Vasco sover" >
+        </picture>
+
+        <!--img 4-->
+        <picture>
+            <source srcset="images/odette.png?as=webp&width=250" type="image/webp">
+            <img src="images/odette.png?width=250" alt="Odette sover">
+        </picture>
+        <br>
+
+        <!--img 5-->
+        <p>En lite äldre bild när de nyligen vaknat upp i min sambos datorstol (som de har erövrat totalt):</p>
+        <picture>
+            <source srcset="images/odette-vasco.jpg?as=webp&width=250" type="image/webp">
+            <img src="images/odette-vasco.jpg?width=250" alt="Odette och Vasco">
+        </picture>
+
+    </main>
+
+</body>
+</html>

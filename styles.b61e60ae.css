@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(59, 117, 119);
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+/*dropdown menu*/
+/* based on code from Web Dev Tutorials on YouTube https://www.youtube.com/watch?v=flItyHiDm7E */
+header {
+    background-color: rgb(19, 29, 29);
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.dropdown-menu {
+    min-height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+}
+
+.logo {
+    font-size: 2rem;
+}
+
+.menu-link {
+    transition: 0.7s ease;
+}
+
+.menu-link:hover {
+    color: dodgerblue;
+}
+
+/*shows hamburger*/
+.hamburger-menu {
+    display: block;
+}
+
+/*creates hamburger*/
+.hamburger-bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+}
+
+/*transforms hamburger to cross*/
+.hamburger-menu.active .hamburger-bar:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger-menu.active .hamburger-bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger-menu.active .hamburger-bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+/* puts away the menu*/
+.menu-content {
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    background-color: rgb(19, 29, 29);
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+/*menu-item*/
+.menu-item {
+    margin: 16px 0;
+}
+
+/*makes the hamburger appear*/
+.menu-content.active {
+    left: 0;
+}
+
+/*main content*/
+main {
+    background-color: rgb(250, 244, 236);
+    width: 400px;
+    padding: 3em;
+    margin: 2em;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+main p {
+    margin-bottom: 1.6em;
+    padding: 0;
+}
+
+main br {
+    margin-bottom: 1.2em;
+}
+
+/* images */
+picture img {
+    margin-bottom: 1.5em;
+}
+
+/* arbetsprocess */
+ol li {
+    list-style-type: upper-roman;
+    margin: 1.1em;
+}
+
+
+@media (min-width: 600px) {
+
+    /* main content */
+    main {
+        width: 600px;
+        margin: auto auto;
+        margin-top: 2.7em;
+    }
+
+    /* images */
+    .main-img {
+        align-items: center;
+        text-align: center;
+    }
+
+    picture img {
+        margin: 1em;
+        margin-top: -0.5em;
+        margin-bottom: 1.6em;
+    }
+    
+}
+
+@media (min-width: 1024px) {
+    
+    /* main content */
+    main {
+        width: 800px;
+        margin: auto auto;
+        margin-top: 2.7em;
+    }
+
+    /* images */
+    picture img {
+
+        margin: 1.4em;
+        margin-top: -0.5em;
+    }
+}
+
+/*# sourceMappingURL=/styles.b61e60ae.css.map */

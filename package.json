@@ -3,14 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "source": "src/index.html",
-  "browserlist": "> 0.5%, last 2 versions, not dead",
-  "targets": {
-    "main": false
-  },
+  "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel",
-    "build": "parcel build"
+    "build": "rimraf dist && parcel build --public-url https://muurein.github.io/moment11/",
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -23,7 +21,11 @@
   },
   "homepage": "https://github.com/Muurein/moment11#readme",
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "parcel": "^2.13.3",
     "sharp": "^0.33.5"
+  },
+  "dependencies": {
+    "rimraf": "^6.0.1"
   }
 }
